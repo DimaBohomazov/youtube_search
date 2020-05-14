@@ -1,0 +1,34 @@
+
+.movie__video-container{
+  height: 625px;
+  width: 100%;
+  margin: 15px 0;
+  @media(max-width: 1200px){
+    height: calc(170px + 455 * ((100vw - 320px) / 1200));
+  }
+}
+.video{
+  height: 100%;
+  width: 100%;
+}
+.movie__title{
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.51);
+  @media(max-width: 1200px){
+    font-size: calc(24px + 16 * ((100vw - 320px) / 1200));
+  }
+}
+.movie__info{
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px ;
+  padding: 10px;
+  @media(max-width: 1200px){
+    font-size: calc(12px + 4 * ((100vw - 320px) / 1200));
+  }
+}
+.movie__channel{
+  @media(max-width: 1200px){
+    font-size: calc(18px + 10 * ((100vw - 320px) / 1200));
+  }
+}

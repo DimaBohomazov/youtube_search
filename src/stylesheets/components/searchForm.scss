@@ -1,0 +1,19 @@
+.search{
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.search__input{
+  background-color: white;
+  opacity: .7;
+  margin-right: 2 px;
+  &:focus{
+    background-color: white;
+    opacity: 0.9;
+    border-color: #ff0000;
+    box-shadow: 0 0 0 2px #9e0000;
+  }
+}
+.search__img{
+  width: 45px;
+  height: 38px;
+}
